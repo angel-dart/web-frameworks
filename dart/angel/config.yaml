@@ -1,0 +1,13 @@
+framework:
+  github: angel-dart/angel
+  version: 2.1.0
+
+provider:
+  default:
+    language: 2.6.0
+
+env:
+  - ANGEL_ENV=production
+
+command:
+  dart bin/prod.dart -p 3000 -j1
